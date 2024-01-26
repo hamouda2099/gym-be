@@ -1,0 +1,27 @@
+{
+  "name": "gym-be",
+  "version": "1.0.0",
+  "description": "gym backend project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "busboy-body-parser": "^0.3.2",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.3.5",
+    "request": "^2.88.2",
+    "winston": "^3.10.0"
+  }
+}
