@@ -20,6 +20,8 @@ const activeSubscription = require("./src/routes/subscriptions/active");
 const pauseSubscription = require("./src/routes/subscriptions/pause");
 const suspendSubscription = require("./src/routes/subscriptions/suspend");
 const payReminderSubscription = require("./src/routes/subscriptions/pay_reminder");
+const deleteSubscription = require("./src/routes/subscriptions/delete_subscription");
+const updateSubscription = require("./src/routes/subscriptions/update_subscription");
 
 
 const app = express();
@@ -44,6 +46,8 @@ app.use(getSubscriptions);
 app.use(pauseSubscription);
 app.use(suspendSubscription);
 app.use(payReminderSubscription);
+app.use(deleteSubscription);
+app.use(updateSubscription);
 
 
 
